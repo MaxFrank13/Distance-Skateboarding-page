@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "forum_name": "General Discussion",
+    "topics": 4,
+    "posts": 10
+  },
+  {
+    "id": 2,
+    "forum_name": "Regional Forums",
+    "topics": 4,
+    "posts": 10
+  },
+  {
+    "id": 3,
+    "forum_name": "Gear Reviews",
+    "topics": 4,
+    "posts": 10
+  },
+  {
+    "id": 4,
+    "forum_name": "Manufacturer Forums",
+    "topics": 4,
+    "posts": 10
+  },
+  {
+    "id": 5,
+    "forum_name": "Event Discussion",
+    "topics": 4,
+    "posts": 10
+  },
+  {
+    "id": 6,
+    "forum_name": "Off the board",
+    "topics": 4,
+    "posts": 10
+  }
+]
