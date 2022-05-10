@@ -12,7 +12,7 @@ module.exports = {
       boxShadow: {
         'light': '0 0 2px 2px',
         'clay': '1px 2px 7px -5px #1F2933, inset 0 0 4px 1px #5ED0FA',
-        'pressed': 'inset 0 0 5px 5px #1992D4'
+        'pressed': 'inset 0 0 5px 2px #E3F8FFAA'
       },
       colors: {
         'slate': {
