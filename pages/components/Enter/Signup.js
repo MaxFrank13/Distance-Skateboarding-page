@@ -3,17 +3,21 @@ import { faLock, faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons'
 
 export default function Login(props) {
 
+  const toggleFormStyles = {
+    background: !props.active ? '#0B69A3' : ''
+  }
+
   return (
-    <section className='flex justify-center p-8'>
+    <section style={toggleFormStyles} className='flex justify-center p-8 rounded-md'>
       <form className='flex flex-col items-center gap-4 bg-slate-100 p-8 rounded-md shadow-inner text-slate-900'>
         <div className='flex items-center gap-2'>
-          <label htmlFor='username' className='w-1/4'>
+          <label htmlFor='signUpUsername' className='w-1/4'>
             <FontAwesomeIcon 
             icon={faUser}
             size='xl'
             />
           </label>
-          <input className='rounded-sm p-2' id='username' type='text' placeholder='username' />
+          <input className='rounded-sm p-2' id='signUpUsername' type='text' placeholder='username' />
         </div>
 
         <div className='flex items-center gap-2'>
@@ -27,13 +31,13 @@ export default function Login(props) {
         </div>
 
         <div className='flex items-center gap-2'>
-          <label htmlFor='password' className='w-1/4'>
+          <label htmlFor='signUpPassword' className='w-1/4'>
             <FontAwesomeIcon 
             icon={faLock}
             size='xl'
             />
           </label>
-          <input className='rounded-sm p-2' id='password' type='password' placeholder='password' />
+          <input className='rounded-sm p-2' id='signUpPassword' type='password' placeholder='password' />
         </div>
 
         <div className='flex items-center gap-2'>

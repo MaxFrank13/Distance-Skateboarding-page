@@ -3,9 +3,12 @@ import { faLock, faUser } from '@fortawesome/free-solid-svg-icons'
 
 export default function Login(props) {
 
+  const toggleFormStyles = {
+    background: !props.active ? '#0B69A3' : ''
+  }
 
   return (
-    <section className='flex justify-center p-8'>
+    <section style={toggleFormStyles} className='flex justify-center p-8 rounded-md'>
       <form className='flex flex-col items-center gap-4 bg-slate-100 p-8 rounded-md shadow-inner text-slate-900'>
         <div className='flex items-center gap-2'>
           <label htmlFor='username' className='w-1/4'>
